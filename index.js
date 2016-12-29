@@ -5,4 +5,4 @@
  */
 
 var CountryTime = require('./src/CountryTime');
-module.exports = 
+module.exports = CountryTime;

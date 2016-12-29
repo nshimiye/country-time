@@ -1,11 +1,15 @@
-'use strict';
+(function(){
 
-const CountryTime = require('../src/CountryTime');
+    'use strict';
 
-let nepalTime = CountryTime.now('NP');
-let rwandaTime = CountryTime.now('RW');
-let usaTime = CountryTime.now('US');
+    const CountryTime = require('../src/CountryTime');
 
-console.log('Nepal', nepalTime);
-console.log('Rwanda', rwandaTime);
-console.log('USA', usaTime);
+    let nepalTime = CountryTime.now('NP');
+    let rwandaTime = CountryTime.now('RW');
+    let usaTime = CountryTime.now('US');
+
+    console.log('Nepal', nepalTime);
+    console.log('Rwanda', rwandaTime);
+    console.log('USA', usaTime);
+
+});
