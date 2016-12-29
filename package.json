@@ -1,0 +1,15 @@
+{
+  "name": "country-time",
+  "version": "1.0.0",
+  "description": "Print out the current time in any country in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'NOT implemented'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.11",
+    "request": "^2.79.0"
+  }
+}
