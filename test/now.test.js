@@ -1,3 +1,9 @@
+/**
+* @Author: mars
+* @Date:   2016-12-29T02:10:56-05:00
+* @Last modified by:   mars
+* @Last modified time: 2016-12-29T18:43:14-05:00
+*/
 (function(){
 
     'use strict';
@@ -12,4 +18,4 @@
     console.log('Rwanda', rwandaTime);
     console.log('USA', usaTime);
 
-});
+})();
